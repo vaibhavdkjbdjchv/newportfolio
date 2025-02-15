@@ -13,27 +13,27 @@ function ProjectsCards({
   live,
   detailsLink,
 }) {
-  const [swtactive, setSwtactive] = useState(false);
+  const [divactive, setdivactive] = useState(false);
 
-  function swtactivediv() {
-    setSwtactive(!swtactive);
+  function divactivediv() {
+    setdivactive(!divactive);
   }
   return (
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 1, ease: easeInOut }}
-      className={`w-[95%] py-5 duration-500 ease-in rounded-l-2xl justify-center gap-10 p-2 flex bg-gradient-to-br rounded-2xl from-[#333333ad] via-[#141414ad] to-[#18181832] text-white`}
+      className={`w-[95%] py-5 duration-500 ease-in rounded-l-2xl lg:flex-row flex-col  justify-center gap-5 p-2 flex  bg-gradient-to-br rounded-2xl from-[#333333ad] via-[#141414ad] to-[#18181832] text-white`}
     >
       <img
         src={image}
         alt=""
         className={` rounded-l-lg  duration-300 ease-in ${
-          swtactive ? "w-[40%] h-[20%]" : "w-[25%] h-[20%]"
+          divactive ? "lg:w-[40%] lg:h-[20%]" : "lg:w-[25%] lg:h-[20%]"
         }`}
       />
       <div className=" py-1 flex flex-col  px-2   items-start">
-        <div className="flex gap-5">
+        <div className="w-[100%] bg flex lg:justify-start justify-between gap-5">
           <h1 className="text-lg fontUse font-bold">{title}</h1>
           <div className="flex cursor-pointer relative">
             <div className=" ">
@@ -70,21 +70,20 @@ function ProjectsCards({
             </div>
           </div>
         </div>
-        <div>
-          {" "}
+        <div className="">
           <div
-            className={`w-[90%] font-semibold duration-500 ease-in fontUse pt-5 ${
-              swtactive ? "text-white" : "text-[#ffffff96]"
+            className={`w-[90%]  text-sm lg:text-lg font-semibold duration-500 ease-in fontUse pt-5 ${
+              divactive ? "text-white" : "text-[#ffffff96]"
             }`}
           >
             {description}
           </div>
-          <div className="w-[100%] duration-500 ease-in flex justify-end px-5 py-5">
+          <div className="w-[100%]  duration-500 ease-in flex justify-end px-5 py-2 lg:py-5">
             <button
               className="text-lg font-bold fontUse"
-              onClick={swtactivediv}
+              onClick={divactivediv}
             >
-              {swtactive ? (
+              {divactive ? (
                 <h1>
                   <FontAwesomeIcon
                     icon={faXmark}
@@ -98,10 +97,10 @@ function ProjectsCards({
           </div>
           <motion.div
             initial={{ opacity: 0 }}
-            animate={swtactive ? { opacity: 1 } : { opacity: 0 }}
+            animate={divactive ? { opacity: 1 } : { opacity: 0 }}
             transition={{ duration: 1, ease: easeInOut }}
             className={`py-1 flex flex-col px-2 duration-500 ease-in  justify-between items-start text-white 
-            ${!swtactive ? " hidden" : "visible"}`}
+            ${!divactive ? " hidden" : "visible"}`}
           >
             {detailsLink}
           </motion.div>

@@ -35,7 +35,7 @@ function Projects() {
   return (
     <div>
       <Navbar />
-      <div className="w-[100vw]  flex justify-center items-center">
+      <div className="w-[100vw] flex justify-center items-center">
         <div className="w-[100%] py-10 flex flex-col items-center justify-center gap-5">
           <div className="w-[90%]">
             <h1 className="text-left text-3xl fontUse font-bold pb-10 ">
