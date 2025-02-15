@@ -24,7 +24,7 @@ const About = () => {
           <ul className="list-disc pl-5 text-gray-300">
             <li>
               🚀 Front-End Development: React, Tailwind CSS, HTML, CSS,
-              JavaScript.
+              JavaScript,GSAP,Locomotive.
             </li>
             <li>
               ⚙️ Back-End Development: Node.js, Express.js, MongoDB, MySQL.
