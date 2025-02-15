@@ -14,6 +14,7 @@ export default function Navbar() {
   function navbarVisibale() {
     setActive2(!active2);
   }
+  
 
   return (
     <div className=" w-[100vw]  px-2 h-[10vh] flex justify-between items-center ">
