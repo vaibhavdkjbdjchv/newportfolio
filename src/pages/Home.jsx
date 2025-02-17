@@ -119,7 +119,7 @@ export default function Home() {
                     transition={{ duration: 0.5, delay: 1.5 }}
                     className="flex justify-evenly flex-wrap w-[100%]"
                   >
-                    <h1 className=" text-center">
+                    <div className=" text-center">
                       <FontAwesomeIcon
                         icon={faHtml5}
                         className="text-center text-orange-700"
@@ -127,14 +127,14 @@ export default function Home() {
                       <h1 className="text-sm text-center fontUse font-semibold">
                         html
                       </h1>
-                    </h1>
-                    <h1 className=" text-center">
+                    </div>
+                    <div className=" text-center">
                       <FontAwesomeIcon icon={faCss} className="text-blue-600" />
                       <h1 className="text-sm text-center text-blu fontUse font-semibold">
                         css
                       </h1>
-                    </h1>
-                    <h1 className=" text-center">
+                    </div>
+                    <div className=" text-center">
                       <FontAwesomeIcon
                         icon={faJs}
                         className="text-yellow-500"
@@ -142,8 +142,8 @@ export default function Home() {
                       <h1 className="text-sm text-center fontUse font-semibold">
                         js
                       </h1>
-                    </h1>
-                    <h1 className=" text-center">
+                    </div>
+                    <div className=" text-center">
                       <FontAwesomeIcon
                         icon={faNode}
                         className="text-green-600"
@@ -151,8 +151,8 @@ export default function Home() {
                       <h1 className="text-sm text-center fontUse  font-semibold">
                         node.js
                       </h1>
-                    </h1>
-                    <h1 className=" text-center">
+                    </div>
+                    <div className=" text-center">
                       <FontAwesomeIcon
                         icon={faJava}
                         className="text-yellow-600"
@@ -160,7 +160,7 @@ export default function Home() {
                       <h1 className="text-sm text-center fontUse  font-semibold">
                         node.js
                       </h1>
-                    </h1>
+                    </div>
                   </motion.div>
 
                   <motion.div
@@ -169,7 +169,7 @@ export default function Home() {
                     transition={{ duration: 0.5, delay: 1.6 }}
                     className="flex  justify-evenly w-[100%]"
                   >
-                    <h1 className=" text-center">
+                    <div className=" text-center">
                       <FontAwesomeIcon
                         icon={faReact}
                         className="text-blue-900 "
@@ -177,14 +177,14 @@ export default function Home() {
                       <h1 className="text-sm text-center fontUse font-semibold">
                         React.js
                       </h1>
-                    </h1>
-                    <h1 className=" text-center">
+                    </div>
+                    <div className=" text-center">
                       <FontAwesomeIcon icon={faDatabase} />
                       <h1 className="text-sm text-center fontUse font-semibold">
                         MYSQL
                       </h1>
-                    </h1>
-                    <h1 className=" text-center">
+                    </div>
+                    <div className=" text-center">
                       <span>
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -215,7 +215,7 @@ export default function Home() {
                       <h1 className="text-sm text-center fontUse font-semibold ">
                         Figma
                       </h1>
-                    </h1>
+                    </div>
                   </motion.div>
                   <motion.div
                     initial={{ y: -10, opacity: 0 }}

@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../../components/Navbar";
 
-const About = () => {
+function About() {
   return (
     <div>
       <Navbar />
@@ -96,6 +96,6 @@ const About = () => {
       </div>
     </div>
   );
-};
+}
 
 export default About;
