@@ -34,7 +34,7 @@ function ProjectsCards({
       />
       <div className=" py-1 flex flex-col  px-2   items-start">
         <div className="w-[100%] bg flex lg:justify-start justify-between gap-5">
-          <h1 className="text-lg fontUse font-bold">{title}</h1>
+          <h1 className="text-lg  fontUse font-bold">{title}</h1>
           <div className="flex cursor-pointer relative">
             <div className=" ">
               <div className="flex cursor-pointer relative">
