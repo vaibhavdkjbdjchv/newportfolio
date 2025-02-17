@@ -61,7 +61,7 @@ export default function Home() {
                     // Same substring at the start will only be typed out once, initially
                     "Web Developer",
                     1000, // wait 1s before replacing "Mice" with "Hamsters"
-                    "App Developer",
+                    "App sfadfdafdf Developer",
                     1000,
                     "FullStak Developer",
                     1000,

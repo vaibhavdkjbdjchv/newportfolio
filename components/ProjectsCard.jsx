@@ -8,6 +8,7 @@ import { easeIn, easeInOut } from "motion";
 function ProjectsCards({
   image,
   title,
+
   description,
   livelink,
   live,
