@@ -367,7 +367,7 @@ export default function Home() {
             initial={{ scale: 0 }}
             animate={{ scale: 1 }}
             transition={{ duration: 0.5, delay: 0.9 }}
-            className="flex lg:px-20 px-5  justify-center items-center  w-[100%] h-[5%]"
+            className="flex lg:px-20 px-5  justify-center items-center  w-[100%] h-[5%] lg:h-[10%]"
           >
             <div className="w-[100%] flex justify-between lg:justify-center items-center h-[10%] bg-gradient-to-br rounded-3xl from-[#333333ad] via-[#141414ad] to-[#18181832] text-white lg:p-10 px-5 py-10">
               <h1 className="lg:w-[10%] lg:text-lg 2xl:text-2xl xl:text-[20px] font-bold fontUse text-lg">
