@@ -14,7 +14,6 @@ export default function Navbar() {
   function navbarVisibale() {
     setActive2(!active2);
   }
-  
 
   return (
     <div className=" w-[100vw]  px-2 h-[10vh] flex justify-between items-center ">
@@ -28,9 +27,9 @@ export default function Navbar() {
         </div>
         <div className=" absolute bg top-0 z-99 left-0 flex justify-start items-start">
           <motion.ul
-            animate={active2 ? { x: "-100%" } : { x: 0 }}
-            transition={{ duration: 0.1 }}
-            className={`lg:w-[20vw] w-[50vw] fixed py-15 lg:py-10 h-[100vh] text-sm lg:text-lg flex flex-col justify-evenly rounded-r-3xl items-start lg:px-5 px-2 text-center duration-700 ease-in  bg-[#3b3b3bce] fontChange`}
+            className={`lg:w-[20vw] w-[50vw] fixed py-15 lg:py-10 h-[100vh] text-sm lg:text-lg flex flex-col justify-evenly rounded-r-3xl items-start lg:px-5 px-2 text-center duration-700 ease-in  bg-[#3b3b3bce] fontChange  ${
+              active2 ? "-translate-x-[100%]" : "translate-x-[0]"
+            }`}
           >
             <li
               to="/"
