@@ -29,7 +29,7 @@ export default function Home() {
   };
 
   return (
-    <div className="w-[100vw] h-screen flex flex-col justify-between">
+    <div className="w-[100vw]  h-screen flex flex-col justify-between">
       <div className="w-[100%] bg h-[10%]">
         <Navbar />
       </div>
@@ -260,7 +260,7 @@ export default function Home() {
                   transition={{ duration: 0.5, delay: 1.5 }}
                   src={images.certificate}
                   alt="certificates"
-                  className="lg:w-[100%]  rounded-lg  "
+                  className="lg:h-[100%] rounded-lg  "
                 />
               </div>
             </div>
@@ -367,7 +367,7 @@ export default function Home() {
             initial={{ scale: 0 }}
             animate={{ scale: 1 }}
             transition={{ duration: 0.5, delay: 0.9 }}
-            className="flex bg-amber-500 lg:px-20 px-5  justify-center items-center  w-[100%] h-[5%] lg:h-[10%]"
+            className="flex  lg:px-20 px-5  justify-center items-center  w-[100%] h-[5%] lg:h-[10%]"
           >
             <div className="w-[100%]  flex justify-between lg:justify-center items-center h-[10%] bg-gradient-to-br rounded-3xl from-[#333333ad] via-[#141414ad] to-[#18181832] text-white lg:p-7 px-5 py-10">
               <h1 className="lg:w-[10%] lg:text-lg 2xl:text-2xl xl:text-[20px] font-bold fontUse text-lg">
@@ -425,7 +425,7 @@ export default function Home() {
           </motion.div>
         </div>
       </div>
-      <div className="w-[100%] h-[10%] phoneview justify-center flex items-center">
+      <div className="w-[100%] h-[10%] phoneview justify-center flex items-end ">
         <div className="w-[100%] md:gap-0 gap-10 flex text-2xl md:flex-row flex-col justify-between items-center px-10">
           <motion.a
             initial={{ marginLeft: -50, opacity: 0 }}
