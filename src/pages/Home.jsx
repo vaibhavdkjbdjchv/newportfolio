@@ -38,8 +38,8 @@ export default function Home() {
         <div className=" md:w-[80%] h-[100%] py-5 flex flex-col items-center gap-5">
           {/* Top Box  */}
           <motion.div
-            initial={{ scale: 0 }}
-            animate={{ scale: 1 }}
+            initial={{ opacity: 0, scale: 0 }}
+            animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5, delay: 0.5 }}
             className="flex w-[100%] px-5 lg:flex-row flex-col lg:h-[45%] gap-5 justify-center items-center lg:px-15 lg:gap-5 "
           >
@@ -82,11 +82,16 @@ export default function Home() {
                 <h1 className="fontUse font-light text-[#ffffff4a] ">
                   Ambernath , Maharastra , India
                 </h1>
-                <div
-                  className="absolute bottom-3 right-5 hover:text-[15.5px] text-[15px]  text-right text-gray-300 hover:text-white fontUse cursor-pointer font-bold duration-300 ease-in "
+                <div className="absolute bottom-3 animate-pulse right-5 hover:text-[15.5px] text-[15px]  text-right text-gray-300 hover:text-white fontUse cursor-pointer font-bold duration-300 ease-in "
                   onClick={() => navigate("/about")}
                 >
-                  About Me →
+                  <motion.h1
+                    initial={{ opacity: 0, x: -20 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    transition={{ delay: 2, duration: 0.5 }}
+                  >
+                    About Me →
+                  </motion.h1>
                 </div>
               </motion.div>
             </div>
