@@ -367,7 +367,7 @@ export default function Home() {
             initial={{ scale: 0 }}
             animate={{ scale: 1 }}
             transition={{ duration: 0.5, delay: 0.9 }}
-            className="flex  lg:px-20 px-5  justify-center items-center  w-[100%] h-[5%] lg:h-[10%]"
+            className="flex  lg:px-20 px-5  justify-center items-center  w-[100%] h-[10%] lg:h-[10%]"
           >
             <div className="w-[100%]  flex justify-between lg:justify-center items-center h-[10%] bg-gradient-to-br rounded-3xl from-[#333333ad] via-[#141414ad] to-[#18181832] text-white lg:p-7 px-5 py-10">
               <h1 className="lg:w-[10%] lg:text-lg 2xl:text-2xl xl:text-[20px] font-bold fontUse text-lg">
@@ -383,7 +383,7 @@ export default function Home() {
                 >
                   <FontAwesomeIcon
                     icon={faLinkedinIn}
-                    className="cursor-pointer hover:bg-[#0062ffab] p-5 rounded-3xl duration-300 ease-in"
+                    className="cursor-pointer hover:bg-[#0062ffab] p-2 rounded-lg duration-300 ease-in"
                   />
                 </motion.a>
                 <motion.a
@@ -395,7 +395,7 @@ export default function Home() {
                 >
                   <FontAwesomeIcon
                     icon={faGithub}
-                    className="cursor-pointer hover:text-black hover:bg-white p-5 rounded-3xl duration-300 ease-in"
+                    className="cursor-pointer hover:text-black hover:bg-white p-2 rounded-lg duration-300 ease-in"
                   />
                 </motion.a>
                 <motion.a
@@ -406,7 +406,7 @@ export default function Home() {
                 >
                   <FontAwesomeIcon
                     icon={faSquareInstagram}
-                    className="cursor-pointer duration-500 ease-in hover:bg-gradient-to-r hover:from-yellow-400 hover:via-pink-500 hover:to-purple-600 p-5 rounded-3xl "
+                    className="cursor-pointer duration-500 ease-in hover:bg-gradient-to-r hover:from-yellow-400 hover:via-pink-500 hover:to-purple-600 p-2 rounded-lg "
                   />
                 </motion.a>
                 <motion.a
@@ -417,7 +417,7 @@ export default function Home() {
                 >
                   <FontAwesomeIcon
                     icon={faFacebook}
-                    className="cursor-pointer hover:bg-[#0015ffab] p-5 rounded-3xl duration-300 ease-in"
+                    className="cursor-pointer hover:bg-[#0015ffab] p-2 rounded-lg duration-300 ease-in"
                   />
                 </motion.a>
               </motion.div>
