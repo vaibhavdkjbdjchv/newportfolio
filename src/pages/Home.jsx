@@ -82,7 +82,8 @@ export default function Home() {
                 <h1 className="fontUse font-light text-[#ffffff4a] ">
                   Ambernath , Maharastra , India
                 </h1>
-                <div className="absolute bottom-3 animate-pulse right-5 hover:text-[15.5px] text-[15px]  text-right text-gray-300 hover:text-white fontUse cursor-pointer font-bold duration-300 ease-in "
+                <div
+                  className="absolute bottom-3 hover:animate-none animate-pulse right-5 hover:text-[15.5px] text-[15px]  text-right text-gray-300 hover:text-white fontUse cursor-pointer font-bold duration-300 ease-in "
                   onClick={() => navigate("/about")}
                 >
                   <motion.h1
