@@ -44,7 +44,7 @@ export default function Home() {
             className="flex w-[100%] px-5 lg:flex-row flex-col lg:h-[45%] gap-5 justify-center items-center lg:px-15 lg:gap-5 "
           >
             {/* PTOFILE DIV */}
-            <div className="flex py-5 px-5 w-[100%] h-[40%] lg:w-[40%] lg:h-[100%]  justify-center items-center gap-10 rounded-3xl bg-gradient-to-br from-[#333333ad] via-[#141414ad] to-[#18181832] text-white">
+            <div className=" relative flex py-5 px-5 w-[100%] h-[40%] lg:w-[40%] lg:h-[100%]  justify-center items-center gap-10 rounded-3xl bg-gradient-to-br from-[#333333ad] via-[#141414ad] to-[#18181832] text-white">
               <img
                 src={images.profile}
                 alt=""
@@ -82,6 +82,12 @@ export default function Home() {
                 <h1 className="fontUse font-light text-[#ffffff4a] ">
                   Ambernath , Maharastra , India
                 </h1>
+                <div
+                  className="absolute bottom-3 right-5 hover:text-[15.5px] text-[15px]  text-right text-gray-300 hover:text-white fontUse cursor-pointer font-bold duration-300 ease-in "
+                  onClick={() => navigate("/about")}
+                >
+                  About Me →
+                </div>
               </motion.div>
             </div>
             {/* PTOFILE DIV CLOSE*/}
@@ -108,7 +114,7 @@ export default function Home() {
                   initial={{ x: -10, opacity: 0 }}
                   animate={{ x: 0, opacity: 1 }}
                   transition={{ duration: 0.5, delay: 1.5 }}
-                  className="text-lg py-2 px-2 font-bold fontUse "
+                  className="text-lg text-center py-2 px-2 font-bold fontUse "
                 >
                   Skills →
                 </motion.h1>
