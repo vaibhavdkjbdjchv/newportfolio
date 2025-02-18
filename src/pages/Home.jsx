@@ -158,7 +158,7 @@ export default function Home() {
                         className="text-yellow-600"
                       />
                       <h1 className="text-sm text-center fontUse  font-semibold">
-                        node.js
+                        Java
                       </h1>
                     </div>
                   </motion.div>
