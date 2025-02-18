@@ -103,7 +103,7 @@ export default function Home() {
               </div>
               {/* marqueee DIV CLOSE*/}
               {/* SKILLS DIV  */}
-              <div className="w-[100%] h-[80%] lg:py-2 flex duration-500 ease-in hover:shadow-[5px_7px_10px_0px_#cfcfcf4a] p-2 overflow-hidden bg-gradient-to-br rounded-3xl from-[#333333ad] via-[#141414ad] to-[#18181832] text-white">
+              <div className="w-[100%] h-[80%] lg:py-2 flex duration-500 ease-in lg:hover:shadow-[5px_7px_10px_0px_#cfcfcf4a] p-2 overflow-hidden bg-gradient-to-br rounded-3xl from-[#333333ad] via-[#141414ad] to-[#18181832] text-white">
                 <motion.h1
                   initial={{ x: -10, opacity: 0 }}
                   animate={{ x: 0, opacity: 1 }}
@@ -248,7 +248,7 @@ export default function Home() {
             {/* certificate Div */}
             <div
               onClick={() => navigate("/certificates")}
-              className="lg:w-[25%] w-[100%] duration-500 ease-in-out hover:shadow-[5px_7px_10px_0px_#cfcfcf4a] px-5 py-2 cursor-pointer rounded-3xl bg-gradient-to-br from-[#333333ad] via-[#141414ad] to-[#18181832] text-white"
+              className="lg:w-[25%] w-[100%] duration-500 ease-in-out lg:hover:shadow-[5px_7px_10px_0px_#cfcfcf4a] px-5 py-2 cursor-pointer rounded-3xl bg-gradient-to-br from-[#333333ad] via-[#141414ad] to-[#18181832] text-white"
             >
               <div className="flex gap-5 py-5 flex-col justify-center items-center">
                 <h1 className="text-lg w-[100%] px-5 font-bold fontUse ">
@@ -266,7 +266,7 @@ export default function Home() {
             </div>
             {/* certificate Div CLOSE */}
             {/* PRJECTS DIV */}
-            <div className="lg:w-[50%] w-[100%] h-100 py-2 duration-500 ease-in hover:shadow-[5px_7px_10px_0px_#cfcfcf4a]  lg:h-[100%] p-2 overflow-hidden bg-gradient-to-br rounded-3xl from-[#333333ad] via-[#141414ad] to-[#18181832] text-white">
+            <div className="lg:w-[50%] w-[100%] h-100 py-2 duration-500 ease-in lg:hover:shadow-[5px_7px_10px_0px_#cfcfcf4a]  lg:h-[100%] p-2 overflow-hidden bg-gradient-to-br rounded-3xl from-[#333333ad] via-[#141414ad] to-[#18181832] text-white">
               <div
                 onClick={() => navigate("/projects")}
                 className="w-[100%] h-[100%] cursor-pointer relative"
@@ -323,7 +323,7 @@ export default function Home() {
             {/* RESUME DIV */}
             <div
               onClick={handleDownload}
-              className="lg:w-[25%] duration-500 ease-in-out hover:shadow-[5px_7px_10px_0px_#cfcfcf4a] px-5 py-2 cursor-pointer rounded-3xl bg-gradient-to-br from-[#333333ad] via-[#141414ad] to-[#18181832] text-white"
+              className="lg:w-[25%] duration-500 ease-in-out lg:hover:shadow-[5px_7px_10px_0px_#cfcfcf4a] px-5 py-2 cursor-pointer rounded-3xl bg-gradient-to-br from-[#333333ad] via-[#141414ad] to-[#18181832] text-white"
             >
               <div className="flex flex-col justify-center gap-2 items-center">
                 <h1 className="text-lg py-2  px-5 text-left font-bold fontUse">
