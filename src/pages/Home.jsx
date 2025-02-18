@@ -41,7 +41,7 @@ export default function Home() {
             initial={{ scale: 0 }}
             animate={{ scale: 1 }}
             transition={{ duration: 0.5, delay: 0.5 }}
-            className="flex w-[100%] px-5 lg:flex-row flex-col lg:h-[45%] gap-2 justify-center items-center lg:px-15 lg:gap-5 "
+            className="flex w-[100%] px-5 lg:flex-row flex-col lg:h-[45%] gap-5 justify-center items-center lg:px-15 lg:gap-5 "
           >
             {/* PTOFILE DIV */}
             <div className="flex py-5 px-5 w-[100%] h-[40%] lg:w-[40%] lg:h-[100%]  justify-center items-center gap-10 rounded-3xl bg-gradient-to-br from-[#333333ad] via-[#141414ad] to-[#18181832] text-white">
@@ -86,7 +86,7 @@ export default function Home() {
             </div>
             {/* PTOFILE DIV CLOSE*/}
             {/* SKILL AND MARQUEE DIV */}
-            <div className="flex w-[100%] h-[60%] lg:w-[55%] lg:h-[100%] flex-col gap-2 justify-center items-center lg:gap-5">
+            <div className="flex w-[100%] h-[60%] lg:w-[55%] lg:h-[100%] flex-col gap-5 justify-center items-center lg:gap-5">
               {/* marqueee DIV */}
               <div className="w-[100%] h-[15%]">
                 <div className="w-[100%] px-2 h-[100%] py-2 lg:text-lg lg:py-5 rounded-lg text-sm flex justify-center items-center fontUse font-semibold lg:rounded-2xl bg-gradient-to-br from-[#333333ad] via-[#141414ad] to-[#18181832] text-white">
@@ -243,7 +243,7 @@ export default function Home() {
             initial={{ scale: 0 }}
             animate={{ scale: 1 }}
             transition={{ duration: 0.5, delay: 0.7 }}
-            className="flex lg:flex-row flex-col w-[100%] gap-2 px-5 lg:px-20 lg:gap-10 lg:h-[45%] "
+            className="flex lg:flex-row flex-col w-[100%] gap-5 px-5 lg:px-20 lg:gap-10 lg:h-[45%] "
           >
             {/* certificate Div */}
             <div
@@ -347,10 +347,10 @@ export default function Home() {
             initial={{ scale: 0 }}
             animate={{ scale: 1 }}
             transition={{ duration: 0.5, delay: 0.9 }}
-            className="flex lg:px-20 px-5 justify-center items-center  w-[100%] h-[10%]"
+            className="flex lg:px-20 px-5  justify-center items-center  w-[100%] h-[5%]"
           >
-            <div className="w-[100%] flex justify-between lg:justify-center items-center h-[10%] bg-gradient-to-br rounded-3xl from-[#333333ad] via-[#141414ad] to-[#18181832] text-white p-10">
-              <h1 className="lg:w-[10%] lg:text-lg 2xl:text-2xl xl:text-[20px] font-bold fontUse">
+            <div className="w-[100%] flex justify-between lg:justify-center items-center h-[10%] bg-gradient-to-br rounded-3xl from-[#333333ad] via-[#141414ad] to-[#18181832] text-white lg:p-10 px-5 py-10">
+              <h1 className="lg:w-[10%] lg:text-lg 2xl:text-2xl xl:text-[20px] font-bold fontUse text-lg">
                 Social →
               </h1>
               <motion.div className="lg:w-[90%] text-[22px] flex xl:text-[20px] lg:text-2xl justify-evenly items-center">
