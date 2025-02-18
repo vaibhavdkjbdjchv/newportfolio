@@ -1,9 +1,8 @@
 import { useState } from "react";
 import "./App.css";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
-import Navbar from "../components/Navbar";
 
-import Certificates from "./pages/certificates";
+import Certificates from "./pages/Certificates";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
