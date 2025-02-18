@@ -248,7 +248,7 @@ export default function Home() {
             {/* certificate Div */}
             <div
               onClick={() => navigate("/certificates")}
-              className="lg:w-[25%] w-[100%] duration-500 ease-in-out lg:hover:shadow-[5px_7px_10px_0px_#cfcfcf4a] px-5 py-2 cursor-pointer rounded-3xl bg-gradient-to-br from-[#333333ad] via-[#141414ad] to-[#18181832] text-white"
+              className="closeDiv lg:w-[25%] w-[100%] duration-500 ease-in-out lg:hover:shadow-[5px_7px_10px_0px_#cfcfcf4a] px-5 py-2 cursor-pointer rounded-3xl bg-gradient-to-br from-[#333333ad] via-[#141414ad] to-[#18181832] text-white"
             >
               <div className="flex gap-5 py-5 flex-col justify-center items-center">
                 <h1 className="text-lg w-[100%] px-5 font-bold fontUse ">
@@ -319,6 +319,26 @@ export default function Home() {
               </div>
             </div>
             {/* PRJECTS DIV CLOSE */}
+
+            {/* mobileview Div */}
+            <div
+              onClick={() => navigate("/certificates")}
+              className="openDiv hidden lg:w-[25%] w-[100%] duration-500 ease-in-out lg:hover:shadow-[5px_7px_10px_0px_#cfcfcf4a] px-5 py-2 cursor-pointer rounded-3xl bg-gradient-to-br from-[#333333ad] via-[#141414ad] to-[#18181832] text-white"
+            >
+              <div className="flex gap-5 py-5 flex-col justify-center items-center">
+                <h1 className="text-lg w-[100%] px-5 font-bold fontUse ">
+                  Certificate →
+                </h1>
+                <motion.img
+                  initial={{ y: -10, opacity: 0 }}
+                  animate={{ y: 0, opacity: 1 }}
+                  transition={{ duration: 0.5, delay: 1.5 }}
+                  src={images.certificate}
+                  alt="certificates"
+                  className="lg:w-[100%] rounded-lg  "
+                />
+              </div>
+            </div>
 
             {/* RESUME DIV */}
             <div

@@ -68,4 +68,10 @@ body {
   .phoneview {
     display: none;
   }
+  .openDiv {
+    display: flex;
+  }
+  .closeDiv{
+    display: none;
+  }
 }
