@@ -64,7 +64,7 @@ body {
   animation: floatCard 4s ease-in-out infinite;
 }
 /* midea queary */
-@media (max-width: 1280px) {
+@media (max-width: 1021px) {
   .phoneview {
     display: none;
   }
