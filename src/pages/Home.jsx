@@ -17,9 +17,7 @@ import { TypeAnimation } from "react-type-animation";
 import images from "../images";
 import { useNavigate } from "react-router-dom";
 import { faDatabase, faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import { fadeIn } from "../Variants";
 import Navbar from "../../components/Navbar";
-import Footer from "../../components/Footer";
 export default function Home() {
   const navigate = useNavigate();
 
