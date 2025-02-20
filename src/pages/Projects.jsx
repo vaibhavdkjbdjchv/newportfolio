@@ -172,8 +172,8 @@ function Projects() {
               frontend and Node.js + MongoDB for the backend. The website
               provides a smooth shopping experience with advanced features like
               a shopping cart, payment gateway, and admin panel."
-            livelink="https://reactproject-nu.vercel.app/"
-            live="Live"
+            livelink="https://github.com/vaibhavpan12/SHOPPER.git"
+            live="GitHub Link"
             detailsLink=<div className="py-2 flex flex-col px-2 justify-between items-start text-white">
               <h1 className="text-lg font-bold">
                 🛒 Shopper E-commerce Website
