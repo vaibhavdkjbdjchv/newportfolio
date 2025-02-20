@@ -91,8 +91,8 @@ function Projects() {
               for real-time AI responses. The project replicates the Gemini
               chatbot interface, offering an interactive and user-friendly
               experience."
-            livelink="https://github.com/vaibhavpan12/Gemini-Clone.git"
-            live="Github Link"
+            livelink="https://gemini-clone-lj1j.vercel.app/"
+            live="Live"
             detailsLink=<div className="py-1 gap-2  mt-10 flex flex-col px-2 justify-between items-start text-white">
               <h1 className="text-lg font-bold">🤖 Gemini Clone Project</h1>
               <p>
