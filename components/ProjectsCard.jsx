@@ -81,19 +81,12 @@ function ProjectsCards({
           </div>
           <div className="w-[100%]  duration-500 ease-in flex justify-end px-5 py-2 lg:py-5">
             <button
-              className="text-lg font-bold fontUse"
+              className={`'text-lg font-bold fontUse' ${
+                divactive ? " hidden" : "visible"
+              }`}
               onClick={divactivediv}
             >
-              {divactive ? (
-                <h1>
-                  <FontAwesomeIcon
-                    icon={faXmark}
-                    className="w-7 py-2 px-1 bg-red-700 rounded-full"
-                  />
-                </h1>
-              ) : (
-                <h1>More Details ....</h1>
-              )}
+              More details...
             </button>
           </div>
           <motion.div
@@ -104,6 +97,16 @@ function ProjectsCards({
             ${!divactive ? " hidden" : "visible"}`}
           >
             {detailsLink}
+            <div className="w-[100%]  duration-500 ease-in flex justify-end px-5 py-2 lg:py-5">
+              <button
+                className={`' text-red-700 text-lg font-bold fontUse' ${
+                  divactive ? " visible" : "hidden"
+                }`}
+                onClick={divactivediv}
+              >
+                Show Less...
+              </button>
+            </div>
           </motion.div>
         </div>
       </div>
