@@ -79,7 +79,12 @@ function ProjectsCards({
           >
             {description}
           </div>
-          <div className="w-[100%]  duration-500 ease-in flex justify-end px-5 py-2 lg:py-5">
+          <motion.div
+            initial={{ scale: 0 }}
+            animate={!divactive ? { scale: 1 } : { scale: 0 }}
+            transition={{ duration: 0.1, ease: easeInOut }}
+            className="w-[100%]  duration-500 ease-in flex justify-end px-5 py-2 lg:py-5"
+          >
             <button
               className={`'text-lg font-bold fontUse' ${
                 divactive ? " hidden" : "visible"
@@ -88,7 +93,7 @@ function ProjectsCards({
             >
               More details...
             </button>
-          </div>
+          </motion.div>
           <motion.div
             initial={{ opacity: 0 }}
             animate={divactive ? { opacity: 1 } : { opacity: 0 }}
@@ -97,7 +102,12 @@ function ProjectsCards({
             ${!divactive ? " hidden" : "visible"}`}
           >
             {detailsLink}
-            <div className="w-[100%]  duration-500 ease-in flex justify-end px-5 py-2 lg:py-5">
+            <motion.div
+              initial={{ scale: 0 }}
+              animate={divactive ? { scale: 1 } : { scale: 0 }}
+              transition={{ duration: 0.2, ease: easeInOut }}
+              className="w-[100%]  duration-500 ease-in flex justify-end px-5 py-2 lg:py-5"
+            >
               <button
                 className={`' text-red-700 text-lg font-bold fontUse' ${
                   divactive ? " visible" : "hidden"
@@ -106,7 +116,7 @@ function ProjectsCards({
               >
                 Show Less...
               </button>
-            </div>
+            </motion.div>
           </motion.div>
         </div>
       </div>
