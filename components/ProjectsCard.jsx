@@ -80,7 +80,6 @@ function ProjectsCards({
             {description}
           </div>
           <motion.div
-            initial={{ scale: 0 }}
             animate={!divactive ? { scale: 1 } : { scale: 0 }}
             transition={{ duration: 0.1, ease: easeInOut }}
             className="w-[100%]  duration-500 ease-in flex justify-end px-5 py-2 lg:py-5"
@@ -103,7 +102,6 @@ function ProjectsCards({
           >
             {detailsLink}
             <motion.div
-              initial={{ scale: 0 }}
               animate={divactive ? { scale: 1 } : { scale: 0 }}
               transition={{ duration: 0.2, ease: easeInOut }}
               className="w-[100%]  duration-500 ease-in flex justify-end px-5 py-2 lg:py-5"
