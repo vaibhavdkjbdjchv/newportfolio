@@ -38,7 +38,7 @@ export default function Home() {
           <motion.div
             initial={{ opacity: 0, scale: 0 }}
             animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.5, delay: 0.5}}
+            transition={{ duration: 0.5, delay: 0.5 }}
             className="flex w-[100%] px-5 lg:flex-row flex-col lg:h-[45%] gap-5 justify-center items-center lg:px-15 lg:gap-5 "
           >
             {/* PTOFILE DIV */}
