@@ -18,11 +18,12 @@ import images from "../images";
 import { useNavigate } from "react-router-dom";
 import { faDatabase, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import Navbar from "../../components/Navbar";
+import resume from "../../public/vaibhavResume.pdf";
 export default function Home() {
   const navigate = useNavigate();
 
   const handleDownload = () => {
-    const fileUrl = "/VaibhavResume .pdf"; // File inside 'public' folder
+    const fileUrl = resume; // File inside 'public' folder
     window.open(fileUrl, "_blank"); // Opens in a new tab
   };
 

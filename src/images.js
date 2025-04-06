@@ -3,7 +3,7 @@ const images = {
     certificate: '/images/certificate.png',
     BCAcertificate: '/images/BCAcertificate.jpg',
     tatacertificate: '/images/tata nqt.png',
-    resume: '/images/VaibhavResume.png',
+    resume: '/images/vaibhavResume.png',
     startbusks: '/images/starbuks.png',
     flaashnet: '/images/flaashnet.png',
     boat: '/images/boat.png',
