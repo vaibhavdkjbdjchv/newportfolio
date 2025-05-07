@@ -85,7 +85,7 @@ function Projects() {
 
           <ProjectsCards
             image={images.estroverse}
-            title="Doctor Appointment System"
+            title="EstroVerse"
             description={`Built a full-stack Doctor Appointment System where patients and doctors connect like never before.
 
   🔧 Tech Stack Magic: React.js ⚛️ | Node.js 🚀 | Express.js 🌐 | MongoDB 🍃 | JWT 🔐
@@ -133,42 +133,47 @@ function Projects() {
               </div>
             }
           />
-
           <ProjectsCards
-            image={images.gemini}
-            title="Gemini Clone"
-            description="🚀 Gemini Clone is an AI-powered chat assistant UI built with
-              React.js and Tailwind CSS. It features a modern, responsive
-              design, smooth animations, dark mode support, and API integration
-              for real-time AI responses. The project replicates the Gemini
-              chatbot interface, offering an interactive and user-friendly
-              experience."
-            livelink="https://gemini-clone-lj1j.vercel.app/"
-            live="Live"
-            detailsLink=<div className="py-1 gap-2  mt-10 flex flex-col px-2 justify-between items-start text-white">
-              <h1 className="text-lg font-bold">🤖 Gemini Clone Project</h1>
+            image={images.swt}
+            title="SWT (Shop With Trust)"
+            description="  🛒 Developed an e-commerce website for my 3rd-year project using
+              HTML, CSS, and JavaScript for the frontend Built backend
+              functionality using PHP and MySQL, including user authentication,
+              product management, and order processing. Designed a responsive
+              interface to ensure compatibility across devices, improving user
+              engagement and accessibility. Integrated shopping cart, payment
+              gateway, and order tracking systems, ensuring smooth transaction
+              flow and customer satisfaction."
+            livelink="https://github.com/vaibhavpan12/SWT-ShopWithTrust-.git"
+            live="GitHub Live"
+            detailsLink=<div className="py-1 flex flex-col px-2  justify-between items-start text-white">
+              <h1 className="text-lg font-bold">
+                🛍️ SWT (Shop With Trust) E-commerce Website
+              </h1>
               <p>
                 <span className="font-semibold">Website Project Type:</span>{" "}
-                Front-end
+                Full-Stack E-commerce Website
               </p>
               <ul className="list-disc list-inside mt-2">
                 <li>
-                  <span className="font-semibold">Project Type:</span>{" "}
-                  AI-powered chat assistant UI clone
+                  <span className="font-semibold">Project Type:</span> Online
+                  shopping platform
                 </li>
                 <li>
                   <span className="font-semibold">Technology Used:</span>
                   <ul className="list-disc list-inside ml-4">
-                    <li>React.js</li>
-                    <li>Tailwind CSS</li>
-                    <li>API Integration (for AI responses)</li>
+                    <li>HTML, CSS, JavaScript (Frontend)</li>
+                    <li>PHP (Backend)</li>
+                    <li>MySQL (Database)</li>
+                    <li>Bootstrap (UI Styling)</li>
                   </ul>
                 </li>
               </ul>
               <p className="mt-2">
-                <span className="font-semibold">Key Features:</span> AI-based
-                chat UI, modern responsive design, smooth animations, dark mode
-                support, and interactive user experience.
+                <span className="font-semibold">Key Features:</span> Secure user
+                authentication, product catalog, shopping cart, order
+                management, admin panel for product management, and a responsive
+                design for all devices.
               </p>
             </div>
           />
@@ -305,46 +310,40 @@ function Projects() {
             </div>
           />
           <ProjectsCards
-            image={images.swt}
-            title="SWT (Shop With Trust)"
-            description="  🛒 Developed an e-commerce website for my 3rd-year project using
-              HTML, CSS, and JavaScript for the frontend Built backend
-              functionality using PHP and MySQL, including user authentication,
-              product management, and order processing. Designed a responsive
-              interface to ensure compatibility across devices, improving user
-              engagement and accessibility. Integrated shopping cart, payment
-              gateway, and order tracking systems, ensuring smooth transaction
-              flow and customer satisfaction."
-            livelink="https://github.com/vaibhavpan12/SWT-ShopWithTrust-.git"
-            live="GitHub Live"
-            detailsLink=<div className="py-1 flex flex-col px-2  justify-between items-start text-white">
-              <h1 className="text-lg font-bold">
-                🛍️ SWT (Shop With Trust) E-commerce Website
-              </h1>
+            image={images.gemini}
+            title="Gemini Clone"
+            description="🚀 Gemini Clone is an AI-powered chat assistant UI built with
+              React.js and Tailwind CSS. It features a modern, responsive
+              design, smooth animations, dark mode support, and API integration
+              for real-time AI responses. The project replicates the Gemini
+              chatbot interface, offering an interactive and user-friendly
+              experience."
+            livelink="https://gemini-clone-lj1j.vercel.app/"
+            live="Live"
+            detailsLink=<div className="py-1 gap-2  mt-10 flex flex-col px-2 justify-between items-start text-white">
+              <h1 className="text-lg font-bold">🤖 Gemini Clone Project</h1>
               <p>
                 <span className="font-semibold">Website Project Type:</span>{" "}
-                Full-Stack E-commerce Website
+                Front-end
               </p>
               <ul className="list-disc list-inside mt-2">
                 <li>
-                  <span className="font-semibold">Project Type:</span> Online
-                  shopping platform
+                  <span className="font-semibold">Project Type:</span>{" "}
+                  AI-powered chat assistant UI clone
                 </li>
                 <li>
                   <span className="font-semibold">Technology Used:</span>
                   <ul className="list-disc list-inside ml-4">
-                    <li>HTML, CSS, JavaScript (Frontend)</li>
-                    <li>PHP (Backend)</li>
-                    <li>MySQL (Database)</li>
-                    <li>Bootstrap (UI Styling)</li>
+                    <li>React.js</li>
+                    <li>Tailwind CSS</li>
+                    <li>API Integration (for AI responses)</li>
                   </ul>
                 </li>
               </ul>
               <p className="mt-2">
-                <span className="font-semibold">Key Features:</span> Secure user
-                authentication, product catalog, shopping cart, order
-                management, admin panel for product management, and a responsive
-                design for all devices.
+                <span className="font-semibold">Key Features:</span> AI-based
+                chat UI, modern responsive design, smooth animations, dark mode
+                support, and interactive user experience.
               </p>
             </div>
           />
