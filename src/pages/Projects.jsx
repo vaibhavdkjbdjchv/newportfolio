@@ -82,6 +82,58 @@ function Projects() {
               </p>
             </div>
           />
+
+          <ProjectsCards
+            image={images.estroverse}
+            title="Doctor Appointment System"
+            description={`Built a full-stack Doctor Appointment System where patients and doctors connect like never before.
+
+  🔧 Tech Stack Magic: React.js ⚛️ | Node.js 🚀 | Express.js 🌐 | MongoDB 🍃 | JWT 🔐
+
+  🌟 Highlights:
+  • 📅 Smooth appointment booking — no more endless waiting lines
+  • 🩺 Clean doctor profiles with expertise details
+  • 🔐 Role-based login — patient ya doctor, sabko apna space
+  • 🛡️ JWT-auth security — privacy locked, safe and sound
+  • 📊 Admin dashboard — full control, zero stress
+  • 📱 Fully responsive — mobile ho ya desktop, always crisp`}
+            livelink="https://doctrot-appoiment-web-nob1.vercel.app/"
+            live="Live"
+            detailsLink={
+              <div className="py-1 gap-2 mt-10 flex flex-col px-2 justify-between items-start text-white">
+                <h1 className="text-lg font-bold">
+                  🩺 Doctor Appointment System
+                </h1>
+                <p>
+                  <span className="font-semibold">Website Project Type:</span>{" "}
+                  Full-stack Web Application
+                </p>
+                <ul className="list-disc list-inside mt-2">
+                  <li>
+                    <span className="font-semibold">Project Type:</span> Online
+                    booking and doctor management platform
+                  </li>
+                  <li>
+                    <span className="font-semibold">Technology Used:</span>
+                    <ul className="list-disc list-inside ml-4">
+                      <li>React.js</li>
+                      <li>Node.js + Express.js</li>
+                      <li>MongoDB</li>
+                      <li>JWT Authentication</li>
+                      <li>Tailwind CSS</li>
+                    </ul>
+                  </li>
+                </ul>
+                <p className="mt-2">
+                  <span className="font-semibold">Key Features:</span>{" "}
+                  Appointment booking, doctor listings, JWT-based login,
+                  mobile-friendly responsive design, and admin analytics
+                  dashboard to view appointment stats.
+                </p>
+              </div>
+            }
+          />
+
           <ProjectsCards
             image={images.gemini}
             title="Gemini Clone"

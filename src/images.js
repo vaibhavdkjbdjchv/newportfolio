@@ -15,5 +15,6 @@ const images = {
     shopper: '/images/shopper.png',
     chess: '/images/chessgame.png',
     swt: '/images/SWT.png',
+    estroverse: '/images/estroverse.png',
 }
 export default images
