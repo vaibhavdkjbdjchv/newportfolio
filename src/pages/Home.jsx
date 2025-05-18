@@ -18,7 +18,7 @@ import images from "../images";
 import { useNavigate } from "react-router-dom";
 import { faDatabase, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import Navbar from "../../components/Navbar";
-import resume from "../../public/vaibhavResume.pdf";
+import resume from "../../public/Vaibhav Panchal (3).pdf";
 export default function Home() {
   const navigate = useNavigate();
 
