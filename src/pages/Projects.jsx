@@ -97,7 +97,7 @@ function Projects() {
   • 🛡️ JWT-auth security — privacy locked, safe and sound
   • 📊 Admin dashboard — full control, zero stress
   • 📱 Fully responsive — mobile ho ya desktop, always crisp`}
-            livelink="https://doctrot-appoiment-web-nob1.vercel.app/"
+            livelink="https://doctrot-appoiment-web-du5j.vercel.app/"
             live="Live"
             detailsLink={
               <div className="py-1 gap-2 mt-10 flex flex-col px-2 justify-between items-start text-white">
