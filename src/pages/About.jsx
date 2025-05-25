@@ -81,17 +81,6 @@ function About() {
               linkedin.com/in/vaibhav-panchal12
             </a>
           </p>
-          <p className="text-gray-300">
-            🌐 <strong>Portfolio:</strong>{" "}
-            <a
-              href="https://yourportfolio.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-400"
-            >
-              YourPortfolio.com
-            </a>
-          </p>
         </div>
       </div>
     </div>
