@@ -365,7 +365,7 @@ export default function Home() {
                   animate={{ y: 0, opacity: 1 }}
                   transition={{ duration: 0.5, delay: 1.5 }}
                   src={images.resume}
-                  alt="certificates"
+                  alt="RESUME"
                   className="lg:h-[80%] rounded-lg  "
                 />
               </div>
